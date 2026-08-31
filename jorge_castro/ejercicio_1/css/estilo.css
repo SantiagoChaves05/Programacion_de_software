@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+body{
+    background-color: aquamarine;
+    color: gray;
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+    color:black
+}
+p{
+    margin: 20px;
+    font-size: 18px
+}
+a{
+    color: red
+=======
+body {
+    background:color red;
+>>>>>>> 671e701d301a842c0c1b94a0acce134b8e7ae175
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: #fff8db;
+    min-height: 100px;
+}
+
+header {
+    background-color: #ECFF1F;
+    min-height: 220px;
+}
+
+.menu-principal {
+    background-color: #1FFFA2;
+    padding: 1rem;
+}
+
+.cuerpo{
+    background-color: #321FFF;
+    min-height: 350px;
+    
+}
+
+.footer {
+    background-color: #FF1F7C;
+    min-height: 120px;
+    
+}
+
