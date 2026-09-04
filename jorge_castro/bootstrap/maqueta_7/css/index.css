@@ -1,27 +1,167 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #fff8db;
-    min-height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
 }
 
-header {
-    background-color: #ECFF1F;
-    min-height: 220px;
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
 }
 
-.menu-principal {
-    background-color: #1FFFA2;
-    padding: 1rem;
+
+
+.header {
+    width: 100%;
+    height: 45px;
+
+    background-color: #00ff00;
+    border: 2px solid #777;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 10px;
+
+    font-style: italic;
 }
 
-.cuerpo{
-    background-color: #321FFF;
-    min-height: 350px;
-    
+
+
+
+.contenido {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 14px;
+
+    margin-top: 10px;
+}
+
+.bloque {
+    height: 200px;
+
+    border: 2px solid #777;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 50px;
+}
+
+
+
+.bloque-1 {
+    background-color: red;
+}
+
+.bloque-2 {
+    background-color: red;
+}
+
+.bloque-3 {
+    background-color: red;
+}
+
+
+.footer-container {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 14px;
+
+    margin-top: 8px;
 }
 
 .footer {
-    background-color: #FF1F7C;
-    min-height: 120px;
-    
+    height: 35px;
+
+    background-color: yellow;
+
+    border: 2px solid #777;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-style: italic;
 }
 
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .contenido {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+    .bloque-3 {
+        grid-column: 1 / 3;
+
+        height: 60px;
+    }
+
+    
+    
+    .bloque-1,
+    .bloque-2 {
+        height: 100px;
+    }
+
+   
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+}
+
+
+
+
+@media (max-width: 575px) {
+
+    .container {
+        width: 95%;
+    }
+
+    
+    .contenido {
+        grid-template-columns: 1fr;
+
+        gap: 8px;
+    }
+
+    .bloque {
+        height: 75px;
+    }
+
+   
+    .footer-container {
+        grid-template-columns: 1fr;
+
+        gap: 6px;
+
+        margin-top: 6px;
+    }
+
+    .footer {
+        height: 28px;
+    }
+
+    
+    .bloque {
+        font-size: 40px;
+    }
+
+}
