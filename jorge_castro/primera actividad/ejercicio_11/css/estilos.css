@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+    color: gray;
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+    color:blue
+}
+h2 a {
+    text-align:center;
+    color:blueviolet
+}
+p a{
+    margin: 20px;
+    font-size: 18px
+}
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: blueviolet;
+}
+a{
+    color: red
+}

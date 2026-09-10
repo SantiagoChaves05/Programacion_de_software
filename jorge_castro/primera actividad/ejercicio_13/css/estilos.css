@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine;
+    color: gray;
+    font-family: Arial;
+}
+h3{
+    text-align: center;
+    color:black
+}
+p{
+    margin: 20px;
+    font-size: 18px
+}
+form{
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: blueviolet;
+}
+a{
+    color: red
+}
