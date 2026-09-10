@@ -1,0 +1,63 @@
+{
+  "photos": [
+    {
+      "id": "look-1",
+      "title": "Labios Berry Wine & Piel Dewy",
+      "author": "Camila Reyes",
+      "undertone": "calido",
+      "shadeName": "Teint 02 Warm Sand + Berry Wine",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAZG5D5NOAP-Uk5aGlKGRQ7ZWRNrrvHEOjlUF3_4CnF0QyA5lvwEdINh6JgFr3ValcwZo8eJk92EASRpb4p34xDQ2s5iu6fNAa-YzuboWZSUc8NWG8D1x451ukEELoHKVMYYGyvo50JpRvAuAB8Kv5pS9azbe2Y5djWhRkYIVz-N3wgIUeEDXnY-frimJLAlI3fHNvDBPZfFcKpTV0nORWr5Kqu-lmzpDi1Fa2XAqS_iwGqKtk33JI",
+      "likes": 148,
+      "createdAt": "Hace 2 horas",
+      "comment": "La combinación del delineado suave con Berry Wine y un toque de bálsamo transparente da un efecto aterciopelado irresistible para las tardes de otoño.",
+      "productsUsed": [
+        "Rouge Solaire Matte Lip (Berry Wine)",
+        "L'Éclat Teint Sublime (02 Warm Sand)"
+      ]
+    },
+    {
+      "id": "look-2",
+      "title": "Rubor Natural Toasted Peach",
+      "author": "Elena Morales",
+      "undertone": "neutro",
+      "shadeName": "Aura Bloom (Toasted Peach)",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCPzIOmRj3ZjNZSTSCjeF4cBvcB5UaK-dP_kGfpTGEnBpFMFJucUUIANC_uXumxAfe71umPNuqjWCwP5BCZqvuOfV5hSVILMmzuu1uVTKggAaV1DcRtWZqoA2Kytp6ybCwCxe2M__wx9QJSdj58Cea32k1Wl-BaKXWuIrFaRGWd-xw_1T7YjlDw6WtcJtA4XuO_WzRhlKS4CwM65wOiCAG1L_IynRjQxT-yu6AfaSIMIOrMNA2z_70",
+      "likes": 92,
+      "createdAt": "Hace 5 horas",
+      "comment": "Dos gotas de Aura Bloom en el puente de la nariz y pómulos dan esa calidez de haber caminado bajo el sol de otoño. 10/10.",
+      "productsUsed": [
+        "Aura Bloom Liquid Blush (Toasted Peach)"
+      ]
+    },
+    {
+      "id": "look-3",
+      "title": "Glow Minimalista de Mañana",
+      "author": "Lucía Santoro",
+      "undertone": "frio",
+      "shadeName": "Teint 01 Fair Alabaster",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuB8n443oyBnhuzn6O4Yig__OMUqKzmKhNMQ-df0SWJhR_DONlL4QCplNPXLCFtwDih2wP4eLa9b7tMoqYnoNxm22xtTQWp71M538D86e6oQOSKOdY1W5Cw92uSys-aJTgAcTd5Tg9sGquazKHIKMrUpLaC9SbGtuZGt7U-iAVaC6x9mrYcM5Z-8YJ0achVsFo46LabPhOw_v445EXvXyAYU62RfaFNZUDm8VOYwsjwMhpZ086FA1Tw",
+      "likes": 215,
+      "createdAt": "Ayer",
+      "comment": "Después del Camellia Primer, apenas una gota de base en el centro del rostro. Mi piel respira y se ve jugosa todo el día.",
+      "productsUsed": [
+        "Camellia Glow Prime Elixir",
+        "L'Éclat Teint Sublime (01 Fair Alabaster)"
+      ]
+    },
+    {
+      "id": "look-4",
+      "title": "Mirada Terracota de Temporada",
+      "author": "Andrea Paredes",
+      "undertone": "calido",
+      "shadeName": "Paleta Soleil d'Automne",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDjkU9bkSs4q1dX_sfZyYLUOwld9-EmxnFNdjbPiPa_su93CVwhH4cVZpOP6xyHRGnS0s6s94HF1a96FVHtiIS0I-HtQod01xZA_1XTiUWdv4MGzjH6_8oaOsc-dO8RexBQv-s5UgSTGTzhyXUMM9MY-s5A2SoTIzHepxyNZQsL4Jj_deHr8Gvq0vtWNe8iiF_VGhUB2CU_tjwQLbbfc2rrMTQxgOKDtEPLUnxb5S9EZxNwQ-Brn8M",
+      "likes": 180,
+      "createdAt": "Hace 2 días",
+      "comment": "La textura de las sombras minerales es tan fina que se funde como crema con solo la yema del dedo anular.",
+      "productsUsed": [
+        "Paleta 'Soleil d'Automne' (Terracotta Mirage)",
+        "Rouge Solaire Matte Lip (Nude Rose)"
+      ]
+    }
+  ]
+}

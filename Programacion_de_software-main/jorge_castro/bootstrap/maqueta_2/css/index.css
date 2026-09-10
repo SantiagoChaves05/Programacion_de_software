@@ -1,0 +1,38 @@
+body {
+    background-color: #fff5bc;
+    min-height: 100px;
+}
+
+header {
+    background-color: #F32B96;
+    min-height: 220px;
+}
+
+.menu-principal {
+    background-color: #F32B32;
+    padding: 1rem;
+}
+
+.cuerpo {
+    background-color: #F3882B;
+    min-height: 350px;
+}
+
+.menu-alterno {
+    background-color: #2BF388;
+    min-height: 350px;
+}
+
+footer {
+    background-color: #2B96F3;
+    min-height: 120px;
+}
+@media (max-width: 991.98px) {
+.encabezado h1 {
+font-size: 2.2rem;
+}
+.cuerpo,
+.menu-alterno {
+min-height: 200px;
+}
+}

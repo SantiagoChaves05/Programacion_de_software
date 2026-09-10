@@ -1,0 +1,6 @@
+{
+  "name": "Terra F.C. - Almanaque & Crónica Deportiva",
+  "description": "Gaceta oficial y almanaque de football tradicional sobre césped natural de Terra Fútbol Club. Registro de clubes, crónicas de época, campos históricos y modo oscuro automático.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

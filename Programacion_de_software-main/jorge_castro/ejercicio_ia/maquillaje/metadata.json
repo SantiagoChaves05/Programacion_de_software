@@ -1,0 +1,6 @@
+{
+  "name": "L'Éclat Beauty",
+  "description": "Boutique de cosmética botánica y vegana con probador dinámico de tonos, almacenamiento en la nube de fotos y modo oscuro automático.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,78 @@
+ <!--           EJERCICIO 15
+ sub sede: Facatativa
+ Ficha: 3465088 - tecnico de progrmacion de software   
+ Aprendiz: Santiago alexander chaves rodriguez
+ Etiquetas Body: <h3> (encabezado), <form> (formulario), <fieldset> (grupo de elementos de formulario), <legend> (titulo de grupo de elementos de formulario), <label> (etiqueta de formulario), <textarea> (area de texto), <input> (campo de entrada), <select> (lista desplegable), <option> (opcion de lista desplegable)
+ Navegador: Google Chrome, etc -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15</title>
+<<<<<<< HEAD
+    <link rel = "stylesheet" href="../bootstrap/.min.css">
+    <link rel = "stylesheet" href="css/estilos.css">
+=======
+>>>>>>> 671e701d301a842c0c1b94a0acce134b8e7ae175
+</head>
+<body>
+ <h3>Información sobre el producto</h3>
+    <form action="/php/insertar subasta.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <label for="nombre">Nombre</label><br />
+            <input type="text" name="nombre" id="nombre" size="50" maxlength="250" />
+
+            <br /><br />
+            <label for="descripcion">Descripción</label><br />
+            <textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea>
+
+            <br /><br />
+            Foto <input type="file" name="foto" />
+
+            <br /><br />
+            <input name="contador" type="checkbox" value="si" /> Añadir contador de visitas
+
+
+        </fieldset>
+        <fieldset>
+
+            <legend>Datos económicos</legend>
+            <label for="precio">Precio</label>
+            <input type="text" size="5" id="precio" name="precio" /> &euro;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="impuestos">Impuestos</label>
+
+            <select id="impuestos" name="impuestos">
+
+                <option value="4">4%</option>
+
+                <option value="7">7%</option>
+
+                <option value="16">16%</option>
+
+                <option value="25">25%</option>
+
+            </select>
+            <br /><br />
+            <label>Promoción</label> <br />
+            <input type="radio" name="promocion" value="ninguno" checked="checked" /> Ninguno <br />
+
+            <input type="radio" name="promocion" value="portes" /> Transporte gratuito <br />
+
+            <input type="radio" name="promocion" value="descuento" /> Descuento 5%
+        </fieldset>
+
+    </form>
+<p><a href="../menu/menu.html" title="Página principal de Mi Sitio" rel="index">Volver 
+            a la pagina principal</a>
+        </p>
+<<<<<<< HEAD
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+=======
+>>>>>>> 671e701d301a842c0c1b94a0acce134b8e7ae175
+</body>
+</html>

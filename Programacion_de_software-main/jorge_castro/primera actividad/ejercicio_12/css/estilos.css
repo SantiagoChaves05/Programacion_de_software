@@ -1,0 +1,26 @@
+
+body{
+    background-color: aquamarine;
+    color: gray;
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+    color:black
+}
+
+p a{
+    margin: 20px;
+    font-size: 18px
+}
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: blueviolet;
+}
+img {
+    margin: 10px;
+}
+a{
+    color: red
+}

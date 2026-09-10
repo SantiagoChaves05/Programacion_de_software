@@ -1,0 +1,6 @@
+{
+  "name": "Toyland - Tienda Mágica de Juguetes",
+  "description": "Tienda interactiva y vibrante de juguetes con estética neo-brutalista pop, catálogo interactivo, club infantil, asistente de regalos y modo oscuro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

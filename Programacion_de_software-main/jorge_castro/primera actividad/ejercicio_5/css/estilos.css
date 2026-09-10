@@ -1,0 +1,21 @@
+
+body{
+    background-color: aquamarine;
+    color: gray;
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+    color:rgb(202, 64, 193)
+}
+p{
+    margin: 20px;
+    font-size: 18px
+}
+a{
+    color: red
+}
+em{
+    font-style: italic;
+    color:rgb(236, 155, 43)
+}   

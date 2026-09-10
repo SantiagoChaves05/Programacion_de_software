@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #FFFDF5;
+    --bg-card: #FFFFFF;
+    --text-main: #12131A;
+    --border-ink: #12131A;
+  }
+
+  .dark {
+    --bg-canvas: #0F1016;
+    --bg-card: #191B26;
+    --text-main: #F4F4F8;
+    --border-ink: #2E3248;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--bg-canvas);
+    color: var(--text-main);
+    transition: background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Bricolage Grotesque', sans-serif;
+  }
+}
+
+/* Neo-Brutalist utility classes */
+.border-ink {
+  border-color: #12131A;
+}
+
+.dark .border-ink {
+  border-color: #2F334A;
+}
+
+/* Hard Drop Shadows */
+.shadow-brutal-sm {
+  box-shadow: 2px 2px 0px #12131A;
+}
+.dark .shadow-brutal-sm {
+  box-shadow: 2px 2px 0px #000000;
+}
+
+.shadow-brutal {
+  box-shadow: 4px 4px 0px #12131A;
+}
+.dark .shadow-brutal {
+  box-shadow: 4px 4px 0px #000000;
+}
+
+.shadow-brutal-lg {
+  box-shadow: 6px 6px 0px #12131A;
+}
+.dark .shadow-brutal-lg {
+  box-shadow: 6px 6px 0px #000000;
+}
+
+.shadow-brutal-xl {
+  box-shadow: 8px 8px 0px #12131A;
+}
+.dark .shadow-brutal-xl {
+  box-shadow: 8px 8px 0px #000000;
+}
+
+.shadow-brutal-yellow {
+  box-shadow: 4px 4px 0px #FFD000;
+}
+
+.shadow-brutal-pink {
+  box-shadow: 4px 4px 0px #FF2A55;
+}
+
+.shadow-brutal-blue {
+  box-shadow: 4px 4px 0px #0050E3;
+}
+
+/* Tactile button press effects */
+.btn-pressable {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.btn-pressable:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #12131A;
+}
+.dark .btn-pressable:hover {
+  box-shadow: 6px 6px 0px #000000;
+}
+.btn-pressable:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px #12131A;
+}
+.dark .btn-pressable:active {
+  box-shadow: 0px 0px 0px #000000;
+}
+
+/* Smooth continuous marquee */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: 200%;
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

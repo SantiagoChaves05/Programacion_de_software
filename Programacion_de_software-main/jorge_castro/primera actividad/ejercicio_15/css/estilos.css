@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+    color: rgb(22, 47, 122);
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+    color:black
+}
+p{
+    margin: 20px;
+    font-size: 18px
+}
+label{
+    margin: 20px;
+    font-size: 18px
+}
+form{
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: rgb(220, 119, 36);
+}
+a{
+    color: red
+}

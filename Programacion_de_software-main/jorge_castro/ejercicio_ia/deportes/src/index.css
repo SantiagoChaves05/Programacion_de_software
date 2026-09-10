@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Libre Caslon Text", Georgia, serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Source Serif 4", Georgia, serif;
+  --font-grotesque: "Bricolage Grotesque", sans-serif;
+
+  --color-parchment-DEFAULT: #fff9e9;
+  --color-parchment-card: #f4eedd;
+  --color-parchment-deep: #eee8d7;
+  --color-parchment-border: #dcd0be;
+  --color-parchment-darker: #dfdac9;
+
+  --color-vintage-green: #082217;
+  --color-vintage-green-light: #1e382b;
+  --color-vintage-green-soft: #324c3e;
+  --color-vintage-gold: #c59f3d;
+  --color-vintage-gold-brass: #d4af37;
+  --color-vintage-sepia: #7c4a27;
+  --color-vintage-terracotta: #862912;
+  --color-vintage-rust: #572316;
+  --color-vintage-ink: #1e1c12;
+  --color-vintage-muted: #5a5243;
+  --color-vintage-aged: #8a7e6c;
+}
+
+/* Bordes dobles y detalles de imprenta retro */
+.border-double-retro {
+  border-style: double;
+  border-width: 4px;
+}
+
+.sepia-photo {
+  filter: sepia(0.38) contrast(1.08) brightness(0.95);
+  transition: filter 0.4s ease;
+}
+
+.sepia-photo:hover {
+  filter: sepia(0.12) contrast(1.12) brightness(1.02);
+}
+
+.scoreboard-chalk {
+  font-family: var(--font-grotesque), monospace;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+.stamp-border {
+  border-style: dashed;
+  border-width: 2px;
+}
+
+/* Textura sutil de papel pergamino */
+.bg-parchment-pattern {
+  background-color: #fff9e9;
+}
+.dark .bg-parchment-pattern {
+  background-color: #101612;
+}
+
